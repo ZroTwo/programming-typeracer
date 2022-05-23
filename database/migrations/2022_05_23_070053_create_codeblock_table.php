@@ -15,14 +15,9 @@ class CreateCodeblockTable extends Migration
     {
         Schema::create('codeblock', function (Blueprint $table) {
             $table->id();
-            $table->integer('language_id');
+            $table->foreignId('language_id');
             $table->longText('code');
             $table->timestamps();
-        });
-        Schema::table('codeblock', function (Blueprint $table) {
-            $table->unsignedBigInteger('language_id');
-
-            $table->foreign('language_id')->references('id')->on('language');
         });
     }
 
