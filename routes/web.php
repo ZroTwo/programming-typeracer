@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('HTML');
+    return view('typeracer/show');
 });
 
 Route::get('/dashboard', function () {

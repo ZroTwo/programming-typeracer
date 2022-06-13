@@ -1,0 +1,49 @@
+-Theme
+IDE color theme
+
+-ideas
+leaderboard
+singleplayer
+multiplayer
+stats
+
+-databases
+users (username and password) Ingmar en Martijn
+leaderboard (contains scores), Quincy
+scores (accuracy/words per minute), Quincy
+languages, Gino
+
+-languages Gino
+HTML
+CSS
+JS
+PHP
+
+taakverdeling
+Quincy Buckle: leaderboard maken back end en front end, scores back end project, accuracy maken back end, words per minute backend en maken,
+completed codeblock pop up functie front en back end, Typeracer Code Typing Mechanism (met Gino)ndasda
+
+Gino Kamperman: Typeracer Code Typing Mechanism, typeracer header en footer, Typeracer Game Block Design,
+Typeracer Code Block implemention Backend, Typeracer Language Database, Typeracer Language Connection to Scores, Typeracer Scores Front end
+
+Ingmar Broerse: login in and register page frontend.
+
+Maritjn van Essen: login in and register page backend.
+
+ Kleuren thema = dark theme php storm font programeer thema
+Lay out = standaard html en dan een slider met voor talen kiezen
+Hoeveel pagina’s
+Welke talen
+Functiets die moeten/ functions die mogen
+Speciale dingen
+Multiplayer is een wens geen eis,
+Geen geluidjes
+Dus PHP kleuren code moet kleur hebben
+Geschiedenis alleen voor mensen met een Account maar je hoeft geen account te hebben
+Ook een timer
+Optie voor op timer typen of afmaken
+Confetti om het te vieren dat je het afmaakt.
+Per code blok hoogste scores.
+Rechts klein update wie het meest recent het spel heeft gespeeld
+Opacity omlaag als je begint met typen want dat is afleidend.
+Admin page
