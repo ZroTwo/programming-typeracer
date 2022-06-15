@@ -16,10 +16,7 @@
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
-    <body>
 
-
-    kjhjkh
 
         <div class="font-sans text-gray-900 antialiased">
             {{ $slot }}
@@ -87,76 +84,66 @@
         </nav>
     </header>
 
-        <footer class="bg-gray-800">
-            <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4">
-                <div>
-                    <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Company</h2>
+        <footer class="bg-slate-900">
+            <div class="grid grid-cols-2 gap-8 py-8 md:grid-cols-4 px-3 ">
+                <div class="px-12 border-slate-800 p-4 border">
+                    <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Contact</h2>
                     <ul class="text-gray-300">
                         <li class="mb-4">
-                            <a href="#" class=" hover:underline">About</a>
+                            <a href="#" class=" hover:underline">programming@typeracer.com</a>
                         </li>
                         <li class="mb-4">
-                            <a href="#" class="hover:underline">Careers</a>
+                            <a href="#" class="hover:underline">0612345678</a>
                         </li>
                         <li class="mb-4">
-                            <a href="#" class="hover:underline">Brand Center</a>
+                            <a href="#" class="hover:underline">Westeinde 33, 3844 DD Harderwijk</a>
                         </li>
                         <li class="mb-4">
                             <a href="#" class="hover:underline">Blog</a>
                         </li>
                     </ul>
                 </div>
-                <div>
-                    <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Help center</h2>
+                <div class="border-slate-800 p-4 border">
+                    <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Typeracers</h2>
                     <ul class="text-gray-300">
                         <li class="mb-4">
-                            <a href="#" class="hover:underline">Discord Server</a>
+                            <a href="#" class="hover:underline">HTML</a>
                         </li>
                         <li class="mb-4">
-                            <a href="#" class="hover:underline">Twitter</a>
+                            <a href="#" class="hover:underline">CSS</a>
                         </li>
                         <li class="mb-4">
-                            <a href="#" class="hover:underline">Facebook</a>
+                            <a href="#" class="hover:underline">JS</a>
                         </li>
                         <li class="mb-4">
-                            <a href="#" class="hover:underline">Contact Us</a>
+                            <a href="#" class="hover:underline">PHP</a>
                         </li>
                     </ul>
                 </div>
-                <div>
-                    <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Legal</h2>
+                <div class="border-slate-800 p-4 border">
+                    <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Account</h2>
                     <ul class="text-gray-300">
                         <li class="mb-4">
-                            <a href="#" class="hover:underline">Privacy Policy</a>
+                            <a href="#" class="hover:underline">Register</a>
                         </li>
                         <li class="mb-4">
-                            <a href="#" class="hover:underline">Licensing</a>
+                            <a href="#" class="hover:underline">Login</a>
                         </li>
                         <li class="mb-4">
-                            <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                            <a href="#" class="hover:underline">Terms and conditions</a>
                         </li>
                     </ul>
                 </div>
-                <div>
-                    <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Download</h2>
-                    <ul class="text-gray-300">
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline">iOS</a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline">Android</a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline">Windows</a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline">MacOS</a>
-                        </li>
-                    </ul>
-                </div>
+                <form class="border-slate-800 p-4 border">
+                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">join our newsletter</label>
+                    <div class="mb-6 pt-2 flex">
+                        <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-l-lg focus:ring-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 focus:border-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 dark:focus:border-gradient-to-r from-indigo-700 via-purple-700 to-pink-700" placeholder="name@typeracer.com" required>
+                        <button type="submit" class="text-white bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 hover:bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 focus:ring-4 focus:outline-none focus:ring-bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 font-medium rounded-r-lg text-sm px-5 py-2.5 text-center">Submit</button>
+                    </div>
+                    </form>
             </div>
-            <div class="py-6 px-4 bg-gray-700 md:flex md:items-center md:justify-between">
-        <span class="text-sm text-gray-300 sm:text-center">© 2022 <a href="https://flowbite.com">Flowbite™</a>. All Rights Reserved.
+            <div class="py-6 px-4 bg-slate-800 md:flex md:items-center md:justify-between">
+        <span class="text-sm text-gray-300 sm:text-center">© 2022 <a href="">Typeracer™</a>. All Rights Reserved.
         </span>
                 <div class="flex mt-4 space-x-6 sm:justify-center md:mt-0">
                     <a href="#" class="text-gray-400 hover:text-white">
@@ -177,5 +164,3 @@
                 </div>
             </div>
         </footer>
-    </body>
-</html>
