@@ -17,11 +17,11 @@
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
 
-
+    <body class="bg-slate-800">
         <div class="font-sans text-gray-900 antialiased">
             {{ $slot }}
         </div>
-<body class="bg-slate-800">
+
     <header>
         <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
             <div class="container-fluid flex flex-wrap justify-between items-center mx-3">
@@ -86,8 +86,8 @@
 
 
         <footer class="bg-gray-800">
-            <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4">
-                <div>
+            <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4 ">
+                <div class="border border-slate-600 p-4">
                     <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Company</h2>
                     <ul class="text-gray-300">
                         <li class="mb-4">
@@ -104,7 +104,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="border-slate-800 p-4 border">
+                <div class="border-slate-600 p-4 border">
                     <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Typeracers</h2>
                     <ul class="text-gray-300">
                         <li class="mb-4">
@@ -121,7 +121,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="border-slate-800 p-4 border">
+                <div class="border-slate-600 p-4 border">
                     <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Account</h2>
                     <ul class="text-gray-300">
                         <li class="mb-4">
@@ -135,7 +135,7 @@
                         </li>
                     </ul>
                 </div>
-                <form class="border-slate-800 p-4 border">
+                <form class="border-slate-600 p-4 border">
                     <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">join our newsletter</label>
                     <div class="mb-6 pt-2 flex">
                         <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-l-lg focus:ring-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 focus:border-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 dark:focus:border-gradient-to-r from-indigo-700 via-purple-700 to-pink-700" placeholder="name@typeracer.com" required>
