@@ -16,16 +16,12 @@
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
-<<<<<<< HEAD
 
 
         <div class="font-sans text-gray-900 antialiased">
             {{ $slot }}
         </div>
 
-=======
-    <body>
->>>>>>> 03a09eb2e61475d7c8308c23feb98fb9df51226e
     <header>
         <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
             <div class="container-fluid flex flex-wrap justify-between items-center mx-3">
@@ -82,13 +78,6 @@
         </nav>
     </header>
 
-<<<<<<< HEAD
-        <footer class="bg-slate-900">
-            <div class="grid grid-cols-2 gap-8 py-8 md:grid-cols-4 px-3 ">
-                <div class="px-12 border-slate-800 p-4 border">
-                    <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Contact</h2>
-=======
-
 
         <div class="font-sans text-gray-900 antialiased">
             {{ $slot }}
@@ -100,7 +89,6 @@
             <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4">
                 <div>
                     <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Company</h2>
->>>>>>> 03a09eb2e61475d7c8308c23feb98fb9df51226e
                     <ul class="text-gray-300">
                         <li class="mb-4">
                             <a href="#" class=" hover:underline">programming@typeracer.com</a>
