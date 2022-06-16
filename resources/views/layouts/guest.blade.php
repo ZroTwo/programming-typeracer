@@ -21,7 +21,7 @@
 <body class="bg-slate-800">
 
     <header>
-        <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
+        <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
             <div class="container-fluid flex flex-wrap justify-between items-center mx-3">
                     <h2 class=" text-white">Landstede <span class="animate-pulse">|</span> <span class="text-gray-700">Typeracer</span></h2>
                 <div class="flex items-center md:order-2">
@@ -85,7 +85,7 @@
 
 
 
-        <footer class="bg-gray-800">
+        <footer class="bg-gray-900 ">
             <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4 ">
                 <div class="border border-slate-600 p-4">
                     <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Company</h2>
@@ -139,14 +139,14 @@
                     <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">join our newsletter</label>
                     <div class="mb-6 pt-2 flex">
                         <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-l-lg focus:ring-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 focus:border-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 dark:focus:border-gradient-to-r from-indigo-700 via-purple-700 to-pink-700" placeholder="name@typeracer.com" required>
-                        <button type="submit" class="text-white bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 hover:bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 focus:ring-4 focus:outline-none focus:ring-bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 font-medium rounded-r-lg text-sm px-5 py-2.5 text-center">Submit</button>
+                        <button type="submit" class="text-white bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 hover:bg-gradient-to-r hover:from-pink-500 hover:to-yellow-500 hover:bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 focus:ring-4 focus:outline-none focus:ring-bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 font-medium rounded-r-lg text-sm px-5 py-2.5 text-center">Submit</button>
                     </div>
                     </form>
             </div>
             <div class="py-6 px-4 bg-slate-800 md:flex md:items-center md:justify-between">
         <span class="text-sm text-gray-300 sm:text-center">© 2022 <a href="">Typeracer™</a>. All Rights Reserved.
         </span>
-                <div class="flex mt-4 space-x-6 sm:justify-center md:mt-0">
+                <div class="flex mt-4 space-x-6 sm:justify-center md:mt-0 ">
                     <a href="#" class="text-gray-400 hover:text-white">
                         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
                     </a>
