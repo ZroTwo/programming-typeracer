@@ -32,7 +32,8 @@
         <div class="flex mr-44 ml-auto w-2/5 pb-1">
             <a href="" class=" mr-96  px-2 py-1 text-white border border-slate-800 bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 hover:bg-gradient-to-r hover:from-pink-500 hover:to-yellow-500 rounded">Start</a>
             <span class=" text-white pl-20 pr-10">WPM:</span>
-            <span class="text-white">Accuracy: %</span>
+            <span class="text-white">Accuracy: </span>
+            <span class="text-white pl-80">Leaderboards</span>
         </div>
 
         <div class="w-1/5">
@@ -47,7 +48,7 @@
 
         <div class="flex flex-col mr-auto ml-auto w-2/5 h-96  ">
             <div class="bg-slate-700 h-full border border-gray-400 rounded-lg">
-                sdfdsf
+                
             </div>
         </div>
         <div class="flex mr-auto ml-auto w-52 h-96 bg-slate-700 border border-gray-400 rounded-lg w-1/6">
