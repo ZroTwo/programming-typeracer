@@ -1,5 +1,5 @@
 <x-guest-layout>
-    <div class="p-3">
+    <div class="hidden lg:flex p-3">
     <div id="toast-notification" class="w-full fixed max-w-xs p-4 text-gray-900 bg-white rounded-lg shadow dark:bg-gray-800 dark:text-gray-300" role="alert">
         <div class="flex items-center mb-3">
             <span class="mb-1  text-sm font-semibold text-gray-900 dark:text-white">New notification</span>
@@ -25,7 +25,7 @@
     </div>
 
     <!-- top bar -->
-    <div class="flex justify-center">
+    <div class="hidden lg:flex justify-center">
         <div class="w-1/4">
         </div>
 
@@ -41,14 +41,18 @@
         </div>
     </div>
 
+    <!-- top bar  Mobile-->
+
+    <div></div>
+
     <!-- midden en rechterblok -->
-    <div class="flex justify-center pb-16">
+    <div class="hidden lg:flex justify-center pb-16">
         <div class="flex justify-center py-3 w-1/4">
         </div>
 
         <div class="flex flex-col mr-auto ml-auto w-2/5 h-96  ">
             <div class="bg-slate-700 h-full border border-gray-400 rounded-lg">
-                
+
             </div>
         </div>
         <div class="flex mr-auto ml-auto w-52 h-96 bg-slate-700 border border-gray-400 rounded-lg w-1/6">
