@@ -1,5 +1,5 @@
 <x-guest-layout>
-    <div class="p-3">
+    <div class="hidden lg:flex p-3">
     <div id="toast-notification" class="w-full fixed max-w-xs p-4 text-gray-900 bg-white rounded-lg shadow dark:bg-gray-800 dark:text-gray-300" role="alert">
         <div class="flex items-center mb-3">
             <span class="mb-1  text-sm font-semibold text-gray-900 dark:text-white">New notification</span>
@@ -25,23 +25,25 @@
     </div>
 
     <!-- top bar -->
-    <div class="flex justify-center">
+    <div class="hidden lg:flex justify-center">
         <div class="w-1/4">
         </div>
 
         <div class="flex mr-44 ml-auto w-2/5 pb-1">
             <a href="" class=" mr-96  px-2 py-1 text-white border border-slate-800 bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 hover:bg-gradient-to-r hover:from-pink-500 hover:to-yellow-500 rounded">Start</a>
             <span class=" text-white pl-20 pr-10">WPM:</span>
-            <span class="text-white">Accuracy:%</span>
+            <span class="text-white">Accuracy: </span>
+            <span class="text-white pl-80">Leaderboards</span>
         </div>
 
         <div class="w-1/5">
 
         </div>
     </div>
+    <!-- top bar  Mobile-->
 
     <!-- midden en rechterblok -->
-    <div class="flex justify-center pb-16">
+    <div class="hidden lg:flex justify-center pb-16">
         <div class="flex justify-center py-3 w-1/4">
         </div>
 
@@ -49,7 +51,7 @@
 
         <div class="flex flex-col mr-auto ml-auto w-2/5 h-96  ">
             <div class="bg-slate-700 h-full border border-gray-400 rounded-lg" id="code">sdfdsf</div>
-            <div class="bg-slate-700 h-full border border-gray-400 rounded-lg" id="replacedit"></div>
+            <div class="bg-slate-700 h-full border border-gray-400 rounded-lg hidden" id="replacedit"></div>
         </div>
         <div class="flex mr-auto ml-auto w-52 h-96 bg-slate-700 border border-gray-400 rounded-lg w-1/6">
         </div>
